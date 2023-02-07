@@ -1,0 +1,21 @@
+
+
+/* Inicio estilos hero */
+#hero {
+    background: url('./imagenes/hero_img.jpeg');
+    background-position-x: center;
+    background-size: cover;
+  }
+
+.hero-head{
+      padding-top: 10%;
+}
+
+
+/*#hero img{
+    width: 100px;
+}*/
+
+/*Fin estilos hero */
+
+
