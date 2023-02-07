@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/bulma.min.css" />
+
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="https://kit.fontawesome.com/f1b54a51d7.css" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <header class="card-header has-background-warning">
+              <p class="card-header-title">
+                Free Consultation
+              </p>
+            </header>
+            <div class="card-content">
+              <div class="field">
+                <label class="label">Nombre</label>
+                <p class="control">
+                  <input id="nombre" class="input" type="text" placeholder="Name">
+                </p>
+              </div>
+              <div class="field">
+                <label class="label">Numero de Telefono</label>
+                <p class="control">
+                  <input id="telefono" class="input" type="tel" placeholder="Phone number">
+                </p>
+              </div>
+              <div class="field">
+                <label class="label">Direccion de Email</label>
+                <p class="control has-icons-left has-icons-right">
+                  <input id="email" class="input" type="email" placeholder="Email">
+                  <span class="icon is-small is-left">
+                    <i class="fa-solid fa-envelope"></i>
+                  </span>
+
+                </p>
+              </div>
+              <div class="field">
+                <label class="label">Pais</label>
+                <div class="select is-primary select is-rounded">
+                  <select id="pais" class="is-hovered">
+                    <!-- <option>Select dropdown</option>
+                      <option>With options</option> -->
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">Estado</label>
+                <div class="select is-primary select is-rounded">
+                  <select id="estado" class="is-hovered">
+                    <!-- <option>Select dropdown</option>
+                      <option>With options</option> -->
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <p class="control">
+                  <button class="button is-warning">
+                    Submit
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./assets/js/utilities_contacto.js"></script>
+</body>
+
+</html>

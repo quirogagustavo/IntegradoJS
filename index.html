@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bulma CSS Navbar</title>
+  <link rel="stylesheet" href="./assets/bulma.min.css" />
+  <link rel="stylesheet" href="./assets/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/
+4.7.0/css/font-awesome.min.css" />
+  <style>
+    .carousel {
+      overflow: hidden;
+      max-width: 60%;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar is-white" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <img src="./assets/imagenes/logointegrador.png" height="5rem" />
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item"> Inicio </a>
+
+        <a class="navbar-item"> La Rinconada </a>
+
+        <a class="navbar-item"> Nosotros </a>
+      </div>
+
+      <div class="navbar-end">
+
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-medium is-success is-rounded is-focused has-text-weight-bold">
+              <strong>Registrarse</strong>
+            </a>
+            <a class="button is-light"> Log in </a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <div class="card">
+            <header id="header-clima" class="card-header">
+              <p class="title is-2">
+              </p>
+            </header>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure id="icono-clima" class="image is-32x32">
+                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p id="descripcion-clima" class="title is-5 is-capitalized is-align-items-center">John Smith</p>
+                </div>
+              </div>
+              <div id="temperatura-clima" class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+  </nav>
+  <section id="hero" class="hero is-large">
+    <div class="hero-head">
+      <p class="title has-text-centered has-text-danger is-size-1">¡ PONELE AIRE DE CAMPO
+        A TUS SALIDAS !</p>
+    </div>
+    <div class="hero-body is-medium">
+
+      <div class="columns is-mobile is-multiline is-centered">
+        <div class="column is-narrow is-4">
+          <a href="#dia_campo" class="button is-primary is-rounded has-text-centered is-size-3">Dia de Campo</a>
+        </div>
+        <div class="column is-narrow is-4 has-text-centered">
+          <a href="#evento" class="button is-primary is-rounded has-text-centered is-size-3">Eventos</a>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section id="dia_campo" class="section is-medium">
+
+    <div class="content">
+      <h1 class="title is-1 is-spaced has-background-primary has-text-centered ">DIA DE CAMPO</h1>
+      <h2>El día de campo comienza a las 10:30hs.</h2>
+
+      <p> Al llegar los recibiremos con calentitas tortas fritas acompañadas de infusiones calientes, (servicio desde
+        las 10:30hs. a 11:30hs.). Hasta el horario del almuerzo podrán disfrutar del lugar que cuenta con más de 20
+        hectáreas, visitar nuestra pequeña huerta, el rincón de los animales, realizar paseos a caballo, actividades
+        deportivas y entretenerse con juegos gauchos de otra época.
+        Mientras pasean podrán observar diferentes tipos de animales como gallinas, patos, ovejas, caballos, vacas,
+        variedad de aves, campo sembrado y diferentes especies de árboles, plantas y flores.
+        También podrán refrescarse en el sector de piletas que cuenta con espacios de sombra, vestuarios, baños y barra
+        de tragos y jugos (sólo en temporada)
+      </p>
+      <h2> Almuerzo.</h2>
+      <p> A las 13:15 sonará la campana indicando el horario del almuerzo.
+        Les ofreceremos una entrada con salame, queso, fiambres regionales, cazuelitas con delicias de nuestras
+        cocineras y riquísimas empanadas de carne.
+        Luego podrán probar un verdadero asado hecho a la leña: chorizo, morcilla, pollo, cerdo, asado y vacío
+        acompañado de ensaladas y papas fritas.
+        Una vez concluido el almuerzo podrán deleitarse con nuestros tradicionales postres: flan con crema o dulce de
+        leche, budín de pan con crema o dulce de leche, ensalada de frutas, queso y dulce y postre helado.
+        Bebidas sin alcohol línea Coca Cola incluidas en el almuerzo (1 botellita por persona).
+        Si desean acompañar el asado con vino o cerveza contamos con una variada carta a disposición.
+        Ofrecemos alternativas para personas vegetarianas y celíacas. Dar aviso al momento de realizar la reserva.
+      </p>
+      <h2> Por la tarde.</h2>
+      <p> Además de seguir disfrutando de las actividades que se hicieron por la mañana, podrán realizar paseos en
+        sulky, probar suerte con algunos juegos antiguos de campo tales como la taba, el tejo, la herradura, el sapo y
+        el balero. Practicar actividades deportivas (fútbol, volley, ping pong y metegol). Los más pequeños podrán
+        disfruta de nuestra placita de juegos para niños (trepadores, hamacas, sube y baja) mientras los grandes
+        descansan al sol o a la sombra disfrutando de unos ricos mates. En verano podrán refrescarse en la pileta.
+      </p>
+      <h2> Merienda.</h2>
+      <p> A la hora de la merienda les ofreceremos canastitas preparadas para cada familia con pastelitos, budines
+        caseros y tortas fritas acompañados de diferentes infusiones calientes.
+      </p>
+      <h2> Nuestro servicio finaliza a las 18:30hs.</h2>
+    </div>
+
+  </section>
+
+  <section id="evento" class="section is-medium">
+
+    <div class="content">
+      <h1 class="title is-1 is-spaced has-background-primary has-text-centered ">EVENTOS</h1>
+      <h2>Hacé tu evento en el Campo
+
+      </h2>
+
+      <p> 
+
+Jardines coloridos, árboles centenarios, perfumados atardeceres, confortables instalaciones, son algunos elementos que hacen de Estancia Chica un lugar ideal para la realización de casamientos, cumpleaños o cualquier tipo de reunión social en un ambiente agradable, novedoso y flexible a los gustos de nuestros clientes.
+
+Pedí una entrevista y vení a conocernos.
+
+      </p>
+
+  </section>
+
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(
+        document.querySelectorAll(".navbar-burger"),
+        0
+      );
+
+      // Add a click event on each of them
+      $navbarBurgers.forEach((el) => {
+        el.addEventListener("click", () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle("is-active");
+          $target.classList.toggle("is-active");
+        });
+      });
+    });
+  </script>
+
+
+
+  <footer class="footer">
+    <p class="has-text-centered">
+      <strong>© All rights reserved.</strong>
+    </p>
+  </footer>
+  <script src="./assets/js/utilities.js"></script>
+</body>
+
+</html>
